@@ -1,0 +1,91 @@
+.outlet {
+  font-family: 'Poppins', sans-serif;
+  padding: 60px 100px;
+  color: #333;
+}
+
+/* HEADER */
+.outlet-header h1 {
+  margin-top: 50px;
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.outlet-header p {
+  color: #666;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+/* TABLE */
+.table-wrapper {
+  overflow-x: auto;
+  border-radius: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+/* HEADER ROW */
+thead {
+  background: #f1f3f5;
+}
+
+th {
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+  color: #555;
+  font-weight: 600;
+}
+
+/* BODY */
+td {
+  padding: 18px 16px;
+  font-size: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+/* ZEBRA STRIPES */
+tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+/* HOVER EFFECT */
+tbody tr:hover {
+  background: #f1f5f9;
+  cursor: pointer;
+}
+
+/* OUTLET NAME EMPHASIS */
+.outlet-name {
+  font-weight: 500;
+  color: #e63946;
+}
+
+/* STICKY HEADER (nice upgrade) */
+thead th {
+  position: sticky;
+  top: 0;
+  background: #f1f3f5;
+  z-index: 2;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .outlet {
+    padding: 40px 20px;
+  }
+
+  th, td {
+    font-size: 12px;
+    padding: 12px;
+  }
+
+  .outlet-header h1 {
+    font-size: 28px;
+  }
+}
