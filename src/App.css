@@ -360,7 +360,7 @@
     grid-template-columns: 1fr;
   }
 
-  /* 🔥 Mobile Fix */
+  /*  Mobile Fix */
 @media (max-width: 768px) {
   .tantalize {
     min-height: 50vh;
@@ -381,6 +381,7 @@
   .btn button {
     width: 50%;
     cursor: pointer;
+    
   }
 }
   

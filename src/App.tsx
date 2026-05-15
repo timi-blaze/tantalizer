@@ -95,7 +95,12 @@ const App: React.FC = () => {
   {topPicks.map((item) => (
     <div  className="food-card">
       <div className="card-image-wrapper">
-        <span className="card-tag">{item.tag}</span>
+
+
+
+
+        
+          <span className="card-tag">{item.tag}</span>
 
         <img src={item.image} alt={item.name} className="card-img" />
 
